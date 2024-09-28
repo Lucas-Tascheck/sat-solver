@@ -7,7 +7,7 @@ Este projeto implementa um resolvedor SAT (Satisfiability Problem) utilizando o 
 2. **Execute o Código**: Execute o script Python passando o diretório do arquivo `.cnf` como argumento :
 
    ```bash
-   python sat_solver.py /diretorio/para/arquivo.cnf
+   python3 sat_solver.py /diretorio/para/arquivo.cnf
    ```
 
 3. **Verifique o Resultado**: Após a execução, um arquivo com a extensão `.res` será gerado com o mesmo nome do arquivo de entrada. O arquivo de saída conterá:
