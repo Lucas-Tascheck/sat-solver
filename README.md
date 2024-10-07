@@ -4,13 +4,17 @@ Este projeto implementa um resolvedor SAT (Satisfiability Problem) utilizando o 
 
 1. **Prepare o Arquivo CNF**: Crie ou edite um arquivo com a extensão `.cnf` seguindo o formato DIMACS.
 
-2. **Execute o Código**: Execute o script Python passando o diretório do arquivo `.cnf` como argumento :
-
+2. **Execute o Código**: Execute o script Python passando o diretório do arquivo `.cnf` na variável filepath localizada na main :
+3. 
    ```bash
-   python3 sat_solver.py /diretorio/para/arquivo.cnf
+   filepath = "formula.cnf"
    ```
 
-3. **Verifique o Resultado**: Após a execução, um arquivo com a extensão `.res` será gerado com o mesmo nome do arquivo de entrada. O arquivo de saída conterá:
+   ```bash
+   python3 sat_solver.py
+   ```
+
+4. **Verifique o Resultado**: Após a execução, um arquivo com a extensão `.res` será gerado com o mesmo nome do arquivo de entrada. O arquivo de saída conterá:
 
    - A primeira linha será `SAT` se a fórmula for satisfazível, ou `UNSAT` se não for.
    - Se a fórmula for satisfazível, a segunda linha terá a valoração das variáveis, terminando com `0`.
